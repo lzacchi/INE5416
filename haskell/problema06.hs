@@ -1,8 +1,8 @@
 validTriangle :: Float -> Float -> Float -> String
 
--- abs :: Float -> Float
--- abs x | x >= 0 = x
---       | otherwise = -x
+abs :: Float -> Float
+abs x | x >= 0 = x
+      | otherwise = -x
 
 validTriangle a b c | abs(b - c) < a && a < (b + c) = "Triângulo Válido"
                     | abs(a - c) < b && b < (a + c) = "Triângulo Válido"
