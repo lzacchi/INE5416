@@ -1,0 +1,12 @@
+O que é 'newtype'?
+    Em Haskell, uma declaração 'newtype' cria um novo tipo de maneira parecida com
+    'data'. A sintaxe e o uso de 'newtype' é virtualmente identica aos de 'data'.
+
+Qual a diferença de 'newtype' para 'type' e 'data'?
+    Um tipo 'type' é uma declaração que associa outros tipos. Por exemplo, o tipo String
+    é uma lista de Char, ou seja: String = [Char]. Sempre que o compilador ler String,
+    substituirá por [Char]. Como exemplo de um dos exercicios, o tipo Ponto3D, quando lido
+    pelo compilador, será substituido por (Float Float Float)
+
+    Uma declaração 'data' define um tipo que pode ter multiplos construtores. Isso não
+    é permitido quando usamos 'newtype'. Uma declaração 'newtype' deve conter apenas um construtor.

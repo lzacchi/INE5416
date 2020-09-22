@@ -1,1 +1,0 @@
-goldbach :: Int -> Int -> Int
