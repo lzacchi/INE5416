@@ -1,0 +1,19 @@
+
+Polimorfismo Universal:
+    Polimorfismo por inclusão:
+        - É o tipo mais comum em linguagens de programação onde uma classe
+        pai é definida para ser herdada por outras subclasses.
+
+    Polimorfismo paramétrico:
+        - Permite uma função ou tipo a serem escritos de forma genérica, ou seja,
+        assumindo valores sem depender de um tipo esecificado. É utilizado em Haskell,
+        e podemsos ver seu uso nos diversos exercícios em que as funções do tipo "func :: a -> b"
+
+Polimorfismo ad-hoc:
+    Polimorfismo de sobrecarga:
+        - Utilizado em funções que podem ser aplicadas para argumentos de diferentes tipos
+    onde cada um possui uma implementação diferente. Um exemplo são os operadores utilizados em C++,
+    que podem ter implementações diferentes dependendo dos tipos presentes na operação.
+
+    Polimorfismo de coerção:
+        - Também chamado de Casting, é a conversão entre tipos.

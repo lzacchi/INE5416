@@ -1,0 +1,15 @@
+a) Classes primitivas são classes definidas independentemente de outras, ou seja,
+são primitivamente definidas na linguagem.
+Exemplos de classes primitivas são Enum, Read e Show.
+
+Classes secundárias, por outro lado, são definidas a partir de outras classes.
+Como exemplo de classes secundárias, temos Integer, Int, Float, que derivam da classe Num.
+
+b) Os tipos numéricos em Haskell são implementados através da classe Num.
+As classes numéricas em Haskell são:
+    Real,
+    Integral,
+    Fractional,
+    Float,
+    RealFrac, e
+    RealFloat.

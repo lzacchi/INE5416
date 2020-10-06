@@ -1,0 +1,4 @@
+O'Haskell foi uma linguagem lançada em 2001, mas já substituida por Timber.
+o "O" de O'Haskell vem de Object, já que a linguagem tinha como objetivo
+extender Haskell adicionando paradigmas novos como orientação à objetos
+e concorrência.
