@@ -1,0 +1,6 @@
+(defun main()
+    (setq x T)
+    ;; (setq y NIL)
+    (setq y T)
+    (write-line (write-to-string ( (lambda (x y) (or (and x (not y)) (and (not x) y))) x y) ))
+)
